@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     publishProgress((i +1)* 100/images.size(), tmp);
                 }
             }
+            nonStop=true;
             return tmp;
         }
         @Override
